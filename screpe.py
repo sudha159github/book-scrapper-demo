@@ -1,9 +1,11 @@
 # python -m pip install requests = get data from web(html, json, xml)
 # python -m pip install beautifulsoup4 = parse html
+# pypi =library
 
-
-import sqlite3
 import requests 
+import sqlite3
+
+
 from bs4 import BeautifulSoup
 
 URL = "http://books.toscrape.com/"
@@ -55,7 +57,7 @@ def scrape_books(url):
     for book in books:
         title = book.h3.a["title"]
         price_text= book.find("p", class_="price_color").text
-        print(title, price_text)
+        
 
 
       # extract currency and numeric part
