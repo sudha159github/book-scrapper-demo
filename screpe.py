@@ -2,6 +2,32 @@
 # python -m pip install beautifulsoup4 = parse html
 # pypi =library
 
+
+
+# git config --global user.name "FIRSTNAME LAST_NAME"
+# git config --global user.email "MY_NAME@rxample.com"
+
+# git tutorial
+#install git
+# create repository in github
+
+# go to git bash
+# git config --global user.name "sudhaghimire"
+# git config --global user.email "sudhaghimire159@g,mail.com"
+
+# git init
+# git status => if you want to check what are the status of files
+# git diff=> if you want to check what are the changes
+# git add .=> file track
+# git commit -m "your message"
+# copy paste git code from github
+
+#1. change the code
+# 2. git add .
+#3. git commit -m "your message"
+# 4 git push origin
+
+
 import requests 
 import sqlite3
 
